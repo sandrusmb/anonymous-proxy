@@ -20,6 +20,15 @@
     flex-wrap: wrap;
     margin-top: 284px;
     font-family: $fontitle;
+
+    @media all and (min-width: 768px) {
+      width: 690px;
+      font-size: 80px;
+    }
+    @media all and (min-width: 1200px) {
+      width: 730px;
+      font-size: 100px;
+    }
   }
 
   &__p {
@@ -27,6 +36,10 @@
     font-size: 16px;
     padding-top: 10px;
     font-family: $font;
+
+    @media all and (min-width: 768px) {
+      font-size: 24px;
+    }
   }
 
   &__icon {

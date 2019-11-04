@@ -31,3 +31,5 @@ mediaqueries
 @media all and (min-width: 1200px)
 
 id links y transiciones
+
+El botón de flecha del módulo hero debe enlazar a la sección "3 Reasons To Purchase". ✅
