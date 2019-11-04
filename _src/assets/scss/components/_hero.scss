@@ -1,6 +1,9 @@
 .hero {
   max-width: 100vw;
   max-height: 100vh;
-  transform: translate(-370px, 0);
-  position: fixed;
+
+  &__img {
+    transform: translate(-370px, 0);
+    position: fixed;
+  }
 }
