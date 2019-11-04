@@ -1,17 +1,39 @@
 .tips {
   width: 100vw;
   box-sizing: border-box;
-  padding: 45px 15px;
+  padding: 30px 15px 45px 15px;
+
+  @media all and (min-width: 768px) {
+    padding: 30px 39px 60px 39px;
+  }
+
+  @media all and (min-width: 1280px) {
+    padding: 60px 275px 60px 275px;
+  }
 
   &__h3 {
     color: $sea;
     font-size: 14px;
     display: inline-block;
+
+    @media all and (min-width: 1280px) {
+      font-size: 16px;
+    }
   }
 
   &__h2 {
     font-family: $fontitle;
     font-size: 24px;
+    width: 290px;
+
+    @media all and (min-width: 768px) {
+      width: 690px;
+      font-size: 26px;
+    }
+    @media all and (min-width: 1280px) {
+      width: 730px;
+      font-size: 32px;
+    }
   }
 
   &__p {
@@ -19,6 +41,10 @@
     line-height: 30px;
     font-size: 18px;
     color: $donec;
+
+    @media all and (min-width: 768px) {
+      font-size: 20px;
+    }
   }
 
   &__cta {
@@ -35,10 +61,19 @@
       color: $snow;
     }
 
+    @media all and (min-width: 768px) {
+      width: 91px;
+    }
+
+    @media all and (min-width: 1280px) {
+      width: 160px;
+    }
+
     &__p {
       margin: 8px 26px 0 25px;
       font-size: 20px;
       font-weight: 500;
+      text-align: center;
     }
   }
 }
