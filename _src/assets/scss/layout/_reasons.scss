@@ -12,12 +12,14 @@
 
   &__cta {
     background: $hot;
-    border-radius: 20px;
+    border-radius: 22.5px;
     width: 184px;
     height: 45px;
     text-align: center;
     justify-items: center;
     color: $snow;
     font-family: $font;
+    font-weight: 500;
+    font-size: 20px;
   }
 }
