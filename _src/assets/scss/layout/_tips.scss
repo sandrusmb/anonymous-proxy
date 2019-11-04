@@ -1,24 +1,20 @@
 .tips {
   width: 100vw;
-  border: 1px solid blue;
   box-sizing: border-box;
   padding: 45px 15px;
 
   &__h3 {
-    border: 1px solid purple;
     color: $sea;
     font-size: 14px;
     display: inline-block;
   }
 
   &__h2 {
-    border: 1px solid orange;
     font-family: $fontitle;
     font-size: 24px;
   }
 
   &__p {
-    border: 1px solid aqua;
     padding-top: 15px;
     line-height: 30px;
     font-size: 18px;
