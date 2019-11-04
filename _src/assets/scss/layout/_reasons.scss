@@ -11,40 +11,32 @@
   }
 
   &__grid {
-    border: 1px solid black;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-auto-columns: 184px;
     justify-content: center;
 
     &__item {
-      border: 1px solid orange;
-
       &--h3 {
-        border: 1px solid pink;
         text-align: center;
       }
 
       &--p {
-        border: 1p solid yellow;
         text-align: center;
         padding-bottom: 50px;
       }
     }
   }
-
   &__cta {
-    border: 1px solid purple;
+    text-align: center;
+    text-decoration: none;
+    color: $snow;
     background: $hot;
-    border-radius: 20px;
-
-    &__p {
-      border: 1px solid blue;
-      color: $snow;
-      font-family: $font;
-      font-weight: 500;
-      font-size: 20px;
-      text-align: center;
-    }
+    padding: 10px 30px;
+    border-radius: 22.5px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 184px;
+    margin-left: 145px;
   }
 }
