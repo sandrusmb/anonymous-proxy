@@ -13,7 +13,6 @@
   justify-content: center;
 
   &__h1 {
-    border: 1px solid yellow;
     width: 290px;
     text-align: center;
     color: $snow;
@@ -21,12 +20,14 @@
     font-size: 42px;
     flex-wrap: wrap;
     margin-top: 284px;
+    font-family: $fonth1;
   }
 
   &__p {
     color: $snow;
     font-size: 16px;
     padding-top: 10px;
+    font-family: $font;
   }
 
   &__icon {
@@ -37,5 +38,8 @@
     text-align: center;
     padding-top: 15px;
     margin-top: 84px;
+    &:hover {
+      background: yellow;
+    }
   }
 }
