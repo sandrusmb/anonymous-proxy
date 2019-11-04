@@ -18,4 +18,6 @@ header fijo ✅ El botón de hamburguesa (en la esquina superior izquierda) debe
 
 hero Primer módulo ✅(Anonymous proxy): debe estar maquetado con flexbox y debe ocupar el alto de la ventana del navegador.
 
-tips Segundo módulo (Looking Through A Window): se puede maquetar usando las propiedades de CSS que se deseen.
+tips ✅ Segundo módulo (Looking Through A Window): se puede maquetar usando las propiedades de CSS que se deseen.
+
+reasons Tercer módulo (3 Reasons To Purchase): los 3 elementos del listado deben estar maquetados con CSS Grid.
