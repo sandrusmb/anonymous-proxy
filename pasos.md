@@ -20,4 +20,10 @@ hero Primer módulo ✅(Anonymous proxy): debe estar maquetado con flexbox y deb
 
 tips ✅ Segundo módulo (Looking Through A Window): se puede maquetar usando las propiedades de CSS que se deseen.
 
-reasons Tercer módulo (3 Reasons To Purchase): los 3 elementos del listado deben estar maquetados con CSS Grid.
+reasons ✅ Tercer módulo (3 Reasons To Purchase): los 3 elementos del listado deben estar maquetados con CSS Grid.
+
+Cuarto módulo (footer): se debe maquetar usando flexbox.
+
+mediaqueries
+
+id links y transiciones

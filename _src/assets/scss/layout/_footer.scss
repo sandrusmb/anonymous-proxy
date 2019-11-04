@@ -1,0 +1,42 @@
+.footer {
+  background: $toocold;
+  color: $snow;
+  width: 100%;
+
+  &__arrow {
+    display: inline-block;
+    padding: 9px 13px;
+    background: $snow;
+    border-radius: 50%;
+    position: relative;
+    left: 45%;
+    bottom: 30px;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+
+    &__nav {
+      text-transform: uppercase;
+
+      &__ul {
+        list-style: none;
+        text-align: center;
+        margin-bottom: 30px;
+        line-height: 30px;
+        font-size: 16px;
+
+        &--heart {
+          color: red;
+          &:hover {
+            color: $sea;
+          }
+        }
+      }
+    }
+  }
+}
