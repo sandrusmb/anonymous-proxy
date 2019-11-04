@@ -20,15 +20,18 @@
     justify-content: center;
     list-style: none;
 
-    &__nav {
-      text-transform: uppercase;
+    @media all and (min-width: 768px) {
+      flex-direction: row-reverse;
+    }
 
+    &__nav {
       &__ul {
         list-style: none;
         text-align: center;
         margin-bottom: 30px;
         line-height: 30px;
         font-size: 16px;
+        text-transform: uppercase;
 
         &--a {
           color: $snow;
