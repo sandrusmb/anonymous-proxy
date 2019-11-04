@@ -1,6 +1,9 @@
 .reasons {
   background: $ice;
   padding: 30px 15px 0px 15px;
+  @media all and (min-width: 1280px) {
+    padding: 50px 15px 0px 15px;
+  }
 
   &__h2 {
     font-family: $fontitle;
