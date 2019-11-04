@@ -10,8 +10,8 @@ partials header hero tips reasons footer ✅
 
 scss Core - Variables core - reset components - hero Layout - header layout - tips layout - reasons layout - footer ✅
 
-Variables
+Variables ✅
 
-font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif; ✅
 
 header fijo
