@@ -26,4 +26,8 @@ Cuarto módulo (footer) ✅: se debe maquetar usando flexbox.
 
 mediaqueries
 
+@media all and (min-width: 768px)
+
+@media all and (min-width: 1200px)
+
 id links y transiciones
