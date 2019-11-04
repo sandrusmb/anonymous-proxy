@@ -25,8 +25,20 @@
         padding-bottom: 50px;
         font-size: 18px;
       }
-      &__a {
-        border: 1px solid red;
+      &--cta {
+        align-self: flex-start;
+        justify-self: center;
+        background: $hot;
+        padding: 10px 30px 10px 30px;
+        border-radius: 20px;
+
+        &--a {
+          text-decoration: none;
+          font-family: $font;
+          font-weight: 500;
+          font-size: 20px;
+          color: $snow;
+        }
       }
     }
   }
