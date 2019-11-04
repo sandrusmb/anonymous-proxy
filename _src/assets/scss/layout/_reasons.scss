@@ -1,0 +1,23 @@
+.reasons {
+  border: 1px solid olive;
+  background: $ice;
+  padding: 30px 15px 45px 15px;
+
+  &__h2 {
+    font-family: $fontitle;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+
+  &__cta {
+    background: $hot;
+    border-radius: 20px;
+    width: 184px;
+    height: 45px;
+    text-align: center;
+    justify-items: center;
+    color: $snow;
+    font-family: $font;
+  }
+}
