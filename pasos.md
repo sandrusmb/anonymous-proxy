@@ -17,3 +17,5 @@ font-family: 'Roboto', sans-serif; ✅
 header fijo ✅ El botón de hamburguesa (en la esquina superior izquierda) debe estar fijo en la parte superior de la pantalla y no debe desaparecer al hacer scroll.
 
 hero Primer módulo ✅(Anonymous proxy): debe estar maquetado con flexbox y debe ocupar el alto de la ventana del navegador.
+
+tips Segundo módulo (Looking Through A Window): se puede maquetar usando las propiedades de CSS que se deseen.
