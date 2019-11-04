@@ -22,7 +22,7 @@ tips ✅ Segundo módulo (Looking Through A Window): se puede maquetar usando la
 
 reasons ✅ Tercer módulo (3 Reasons To Purchase): los 3 elementos del listado deben estar maquetados con CSS Grid.
 
-Cuarto módulo (footer): se debe maquetar usando flexbox.
+Cuarto módulo (footer) ✅: se debe maquetar usando flexbox.
 
 mediaqueries
 
