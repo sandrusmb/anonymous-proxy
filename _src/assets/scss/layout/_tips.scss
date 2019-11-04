@@ -55,18 +55,27 @@
     height: 45px;
     border-radius: 20px;
     margin-top: 30px;
+    transition: width 2s;
     &:hover {
       border: 2px solid $snow;
       background: $sea;
       color: $snow;
+      width: 80px;
     }
 
     @media all and (min-width: 768px) {
       width: 91px;
     }
 
+    &:hover {
+      width: 100px;
+    }
+
     @media all and (min-width: 1280px) {
       width: 160px;
+      &:hover {
+        width: 180px;
+      }
     }
 
     &__p {
