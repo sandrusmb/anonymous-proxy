@@ -52,9 +52,9 @@ https://sandrusmb.github.io/creando-diversidad-digital/
 
 También hice el ejercicio de repaso del rojo más perfecto desde cero.
 
-https://github.com/sandrusmb/fire-red-engine https://
+https://github.com/sandrusmb/fire-red-engine
 
-sandrusmb.github.io/fire-red-engine/
+https://sandrusmb.github.io/fire-red-engine/
 
 Gracias!
 
