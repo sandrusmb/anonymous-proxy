@@ -46,11 +46,15 @@ BONUS: hacer una pequeña animación en el botón del footer. ✅
 
 He hecho modificaciones en el ejercicio de evaluación intermedia y añadido algunas cosas extras como: un formulario y un footer diferente en la sección de Contacto.
 
-https://github.com/sandrusmb/creando-diversidad-digital https://sandrusmb.github.io/creando-diversidad-digital/
+https://github.com/sandrusmb/creando-diversidad-digital
+
+https://sandrusmb.github.io/creando-diversidad-digital/
 
 También hice el ejercicio de repaso del rojo más perfecto desde cero.
 
-https://github.com/sandrusmb/fire-red-engine https://sandrusmb.github.io/fire-red-engine/
+https://github.com/sandrusmb/fire-red-engine https://
+
+sandrusmb.github.io/fire-red-engine/
 
 Gracias!
 
