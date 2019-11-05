@@ -1,51 +1,80 @@
 .footer {
+  border: 1px solid red;
   background: $toocold;
   color: $snow;
-  width: 100%;
+  font-size: 16px;
+  text-transform: uppercase;
 
-  &__arrow {
+  &__icon {
     display: inline-block;
-    padding: 9px 13px;
     background: $snow;
+    padding: 10px 13px;
     border-radius: 50%;
-    position: relative;
-    left: 45%;
-    bottom: 30px;
+    margin-left: 44vw;
+    margin-top: -30px;
+
+    @media all and (min-width: 768px) {
+      margin-left: 47vw;
+    }
+
+    @media all and (min-width: 1280px) {
+      margin-left: 48vw;
+    }
   }
 
   &__container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
+    line-height: 30px;
+    text-align: center;
 
     @media all and (min-width: 768px) {
       flex-direction: row-reverse;
+      text-align: left;
     }
 
-    &__nav {
-      &__ul {
+    &__ul--first {
+      margin: 20px 0px;
+
+      @media all and (min-width: 768px) {
         list-style: none;
-        text-align: center;
-        margin-bottom: 30px;
+        position: relative;
+        transform: translatex(-510%);
+        margin: 45px 0;
         line-height: 30px;
-        font-size: 16px;
-        text-transform: uppercase;
+      }
+      @media all and (min-width: 1280px) {
+        transform: translatex(-850%);
+      }
+    }
 
-        &--a {
-          color: $snow;
-          text-decoration: none;
-          &:hover {
-            color: $hot;
-          }
-        }
+    &__ul--second {
+      margin: 20px 0px;
 
-        &--heart {
-          color: red;
-          &:hover {
-            color: $sea;
-          }
+      @media all and (min-width: 768px) {
+        list-style: none;
+        position: relative;
+        margin: 45px 0;
+      }
+      @media all and (min-width: 1280px) {
+        transform: translatex(-110%);
+      }
+    }
+
+    &__ul--third {
+      margin: 20px 0px;
+      @media all and (min-width: 768px) {
+        list-style: none;
+        transform: translatex(-240%);
+        margin: 45px 0;
+      }
+      @media all and (min-width: 1280px) {
+        transform: translatex(-600%);
+      }
+      &--heart {
+        color: $hot;
+        &:hover {
+          color: $sea;
         }
       }
     }
