@@ -15,7 +15,7 @@
     </head>
     
     <body>
-        <header class="header">
+        <header class="header" id="#">
             <img src="./assets/images/ico-menu.svg" alt="Icono de menú desplegable"
             title="¡Navega!" />
         </header>
@@ -65,47 +65,34 @@
             </section>
         </main>
         <footer class="footer">
-            <div class="footer__arrow">
-                <img src="./assets/images/ico-arrow.svg" alt="" title="" />
+            <div class="footer__icon"> <a href="index.html#header"><img src="../assets/images/ico-arrow.svg" alt="Icono con flecha" title="Volver arriba"/></a>
+
             </div>
             <div class="footer__container">
-                <nav class="footer__container__nav">
-                    <ul class="footer__container__nav__ul">
-                        <li><a class="footer__container__nav__ul--a" href="https://www.google.com">Articles</a>
-
-                        </li>
-                        <li><a class="footer__container__nav__ul--a" href="https://www.wikipedia.com"
-                            a>Books</a>
-
-                        </li>
-                        <li><a class="footer__container__nav__ul--a" href="https://www.adalab.es">Events</a>
-
-                        </li>
-                        <li><a class="footer__container__nav__ul--a" href="https://www.campus.co">Reasons</a>
-
-                        </li>
-                        <li><a class="footer__container__nav__ul--a" href="https://www.esmadrid.com">Tips</a>
-
-                        </li>
+                <div class="footer__container__ul">
+                    <ul class="footer__container__ul--first">
+                        <li>Articles</li>
+                        <li>Books</li>
+                        <li>Events</li>
+                        <li>Reasons</li>
+                        <li>Tips</li>
                     </ul>
-                </nav>
-                <nav class="footer__container__nav">
-                    <ul class="footer__container__nav__ul">
-                        <li><a class="footer__container__nav__ul--a" href="https://www.twitter.com">Twitter</a>
-
-                        </li>
-                        <li><a class="footer__container__nav__ul--a" href="https://www.instagram.com">Instagram</a>
-
-                        </li>
-                        <li><a class="footer__container__nav__ul--a" href="https://mastodon.social/about">Mastodon.social</a>
-
-                        </li>
+                </div>
+                <div class="footer__container__ul">
+                    <ul class="footer__container__ul--second">
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Mastodon.Social</li>
                     </ul>
-                </nav>
-                <ul class="footer__container__nav__ul">
-                    <li>&copy2017</li>
-                    <li>we <span class="footer__container__nav__ul--heart">&hearts;</span> components</li>
-                </ul>
+                </div>
+                <div class="footer__container__ul">
+                    <ul class="footer__container__ul--third">
+                        <li>&copy2017</li>
+                        <li>we <span class="footer__container__ul--third--heart">&hearts;</span>
+
+                        </li>components</li>
+                    </ul>
+                </div>
             </div>
         </footer>
     </body>

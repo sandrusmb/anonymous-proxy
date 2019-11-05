@@ -10,8 +10,12 @@
     background: $snow;
     padding: 10px 13px;
     border-radius: 50%;
-    margin-left: 44vw;
+    margin-left: 46vw;
     margin-top: -30px;
+
+    &:hover {
+      background: $sea;
+    }
 
     @media all and (min-width: 768px) {
       margin-left: 47vw;
@@ -46,6 +50,14 @@
       @media all and (min-width: 1280px) {
         transform: translatex(-850%);
       }
+
+      &--a {
+        text-decoration: none;
+        color: $snow;
+        &:hover {
+          color: $hot;
+        }
+      }
     }
 
     &__ul--second {
@@ -58,6 +70,13 @@
       }
       @media all and (min-width: 1280px) {
         transform: translatex(-110%);
+      }
+      &--a {
+        text-decoration: none;
+        color: $snow;
+        &:hover {
+          color: $hot;
+        }
       }
     }
 
