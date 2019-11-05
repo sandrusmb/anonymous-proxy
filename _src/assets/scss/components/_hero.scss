@@ -64,9 +64,10 @@
     padding-top: 15px;
     position: absolute;
     bottom: 53px;
-    transition-duration: 2s;
+    transition-duration: 0.8s;
     &:hover {
       background: $sea;
+      transform: translatey(20px);
     }
     @media all and (min-width: 768px) {
       bottom: 45px;
@@ -74,6 +75,9 @@
 
     @media all and (min-width: 1280px) {
       bottom: 20px;
+    }
+    &__a {
+      padding: 10px;
     }
   }
 }
