@@ -24,12 +24,14 @@ reasons ✅ Tercer módulo (3 Reasons To Purchase): los 3 elementos del listado 
 
 Cuarto módulo (footer) ✅: se debe maquetar usando flexbox.
 
-mediaqueries
+mediaqueries ✅
 
 @media all and (min-width: 768px)
 
 @media all and (min-width: 1200px)
 
-id links y transiciones
+id links y transiciones ✅
 
 El botón de flecha del módulo hero debe enlazar a la sección "3 Reasons To Purchase". ✅
+
+BONUS: hacer una pequeña animación en el botón del footer.
