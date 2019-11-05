@@ -6,4 +6,7 @@
   max-width: 44px;
   max-height: 44px;
   z-index: 99;
+  &:hover {
+    opacity: 0.5;
+  }
 }
