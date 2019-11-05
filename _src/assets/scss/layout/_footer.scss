@@ -107,6 +107,9 @@
       }
       .heart {
         color: $hot;
+        &:hover {
+          color: $sea;
+        }
       }
     }
   }
