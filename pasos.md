@@ -34,4 +34,6 @@ id links y transiciones ✅
 
 El botón de flecha del módulo hero debe enlazar a la sección "3 Reasons To Purchase". ✅
 
+mejorar botón flecha
+
 BONUS: hacer una pequeña animación en el botón del footer.
