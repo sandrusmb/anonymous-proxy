@@ -11,6 +11,24 @@
     border-radius: 50%;
     margin-left: 46vw;
     margin-top: -30px;
+    animation-name: icon;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+    @keyframes icon {
+      from {
+        background: $snow;
+        transform: scale(1);
+        transform: rotate(0);
+      }
+      to {
+        background: $sea;
+        transform: scale(5);
+        transform: rotate(-360deg);
+        border: 3px dashed $hot;
+      }
+    }
 
     @media all and (min-width: 768px) {
       margin-left: 47vw;
