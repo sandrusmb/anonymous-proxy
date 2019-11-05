@@ -67,8 +67,11 @@
         background: $hot;
         padding: 10px 30px 10px 30px;
         border-radius: 20px;
+        transition-duration: 2s;
+
         &:hover {
           background: $sea;
+          border-radius: 10px;
         }
 
         @media all and (min-width: 768px) {
